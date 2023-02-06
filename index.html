@@ -1,151 +1,65 @@
 <!DOCTYPE html>
-<html lang="en-us"> </html>
+<html>
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio Website</title> 
-    <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <div class="scroll-up-btn">
-        <i class="fas fa-angle-up"></i>
-    </div>
-    <nav class="navbar">
-      <div class="max-width">
-        <div class="logo"><a href="#">Portfo<span>lio</span></a></div>
-        <ul class="menu">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">About</a></li>
-        </ul>
-    </div>
-</nav>
+  <header>
+    <h1>My Portfolio</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<section class="home" id="home">
-    <div class="max-width">
-        <div class="home-content">
-            <div class="text-1">Hello, my name is</div>
-            <div class="text-2">Katya Chugueva</div>
-            <div class="text-3"> <span class="typing"></span></div>
-        </div>
-    </div>
-</section>
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hi, I'm John Doe and I'm a web developer. I have experience in HTML, CSS, and JavaScript, and I love creating beautiful and functional websites.</p>
+    </section>
 
-<section class="skills" id="skills">
-    <div class="max-width">
-        <h2 class="title">My skills</h2>
-        <div class="skills-content">
-            <div class="column left">
-                <div class="text">My creative skills & experiences.</div>
-                <img
-            class="portfolio_img"
-            src="./sous_chefs_image.png"
-            alt="Sous-Chef"
-          />
-        
-                <a href="#">Read more</a>
-            </div>
-            <div class="column right">
-                <div class="bars">
-                    <div class="info">
-                        <span>HTML</span>
-                        <span>90%</span>
-                    </div>
-                    <div class="line html"></div>
-                </div>
-                <div class="bars">
-                    <div class="info">
-                        <span>CSS</span>
-                        <span>60%</span>
-                    </div>
-                    <div class="line css"></div>
-                </div>
-                <div class="bars">
-                    <div class="info">
-                        <span>JavaScript</span>
-                        <span>80%</span>
-                    </div>
-                    <div class="line js"></div>
-                </div>
-                <div class="bars">
-                    <div class="info">
-                        <span>PHP</span>
-                        <span>50%</span>
-                    </div>
-                    <div class="line php"></div>
-                </div>
-                <div class="bars">
-                    <div class="info">
-                        <span>MySQL</span>
-                        <span>70%</span>
-                    </div>
-                    <div class="line mysql"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+    <section id="projects">
+      <h2>My Projects</h2>
+      <ul>
+        <li>
+          <h3>Project 1</h3>
+          <p>Description of project 1</p>
+        </li>
+        <li>
+          <h3>Project 2</h3>
+          <p>Description of project 2</p>
+        </li>
+        <li>
+          <h3>Project 3</h3>
+          <p>Description of project 3</p>
+        </li>
+      </ul>
+    </section>
 
-<section class="contact" id="contact">
-    <div class="max-width">
-        <h2 class="title">Contact me</h2>
-        <div class="contact-content">
-            <div class="column left">
-                <div class="text">Get in Touch</div>
-                <div class="icons">
-                    <div class="row">
-                        <i class="fas fa-user"></i>
-                        <div class="info">
-                            <div class="head">Name</div>
-                            <div class="sub-title">Katya Chugueva</div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <div class="info">
-                            <div class="head">Address</div>
-                            <div class="sub-title">Brooklyn,NY</div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <i class="fas fa-envelope"></i>
-                        <div class="info">
-                            <div class="head">Email</div>
-                            <div class="sub-title">kach9201@gmail.com</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="column right">
-                <div class="text">Message me</div>
-                <form action="#">
-                    <div class="fields">
-                        <div class="field name">
-                            <input type="text" placeholder="Name" required>
-                        </div>
-                        <div class="field email">
-                            <input type="email" placeholder="Email" required>
-                        </div>
-                    </div>
-                    <div class="field">
-                        <input type="text" placeholder="Subject" required>
-                    </div>
-                    <div class="field textarea">
-                        <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
-                    </div>
-                    <div class="button-area">
-                        <button type="submit">Send message</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-</section>
-<footer>
-    <span>Created By <a href="#">Katya<span> Chugueva</span></a>
-</footer>
- 
-  <script src="./app.js"></script>
+    <section id="contact">
+      <h2>Get in Touch</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Copyright © 2023 John Doe</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
+
