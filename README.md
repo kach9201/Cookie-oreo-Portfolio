@@ -1,5 +1,9 @@
 # Cookie-oreo-Portfolio
 
+Preview Screenshot
+
+![Screenshot (22)](https://user-images.githubusercontent.com/116523970/234443058-94a3f4c7-fc25-4c82-9743-f38f93eaef3a.png)
+
 User Story
 
 AS AN employer
@@ -37,4 +41,5 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 
 THEN I am presented with a responsive layout that adapts to my viewport
-![Screenshot (22)](https://user-images.githubusercontent.com/116523970/234443058-94a3f4c7-fc25-4c82-9743-f38f93eaef3a.png)
+
+
