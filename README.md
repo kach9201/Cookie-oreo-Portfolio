@@ -1,6 +1,15 @@
 # Cookie-oreo-Portfolio
 
+User Story
+
+AS AN employer
+
+I WANT to view a potential employee's deployed portfolio of work samples
+
+SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
+
 Acceptance Criteria
+
 Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager's needs:
 
 GIVEN I need to sample a potential employee's previous work
@@ -28,3 +37,4 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 
 THEN I am presented with a responsive layout that adapts to my viewport
+![Screenshot (22)](https://user-images.githubusercontent.com/116523970/234443058-94a3f4c7-fc25-4c82-9743-f38f93eaef3a.png)
